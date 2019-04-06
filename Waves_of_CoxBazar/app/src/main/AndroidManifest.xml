@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parvez_n_jabed_co.waves_of_coxbazar" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <application
+        android:name=".FirebaseIntegration.FireApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/mainico11"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+            <intent-filter>
+                <action android:name="MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Event"
+            android:label="" />
+        <activity
+            android:name=".HotelViewActivity"
+            android:label="" />
+        <activity
+            android:name=".GroupListViewActivity"
+            android:label="" />
+        <activity
+            android:name=".Jet2Activity"
+            android:label="" />
+        <activity
+            android:name=".ToakActivity"
+            android:label="" />
+        <activity
+            android:name=".ComplainActivity"
+            android:label="" />
+        <activity
+            android:name=".BeachBike"
+            android:label="" />
+        <activity
+            android:name=".PeraActivity"
+            android:label="" />
+        <activity
+            android:name=".TransportActivity"
+            android:label="" />
+        <activity
+            android:name=".TideActivity"
+            android:label="" />
+        <activity
+            android:name=".HelpLineActivity"
+            android:label="" />
+        <activity
+            android:name=".BlankActivity"
+            android:label="" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WebViewActivity"
+            android:label="" >
+            <intent-filter>
+                <action android:name="WEB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Hotellist"
+            android:label="" />
+        <activity android:name=".FirebaseIntegration.NotificationActivity" >
+            <intent-filter>
+                <action android:name="NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".FirebaseIntegration.FirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MbESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <!--
+     Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/mainico12" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+
+        <activity
+            android:name=".HospitalActivity"
+            android:label="" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".RestaurantActivity"
+            android:label="" />
+        <activity
+            android:name=".MapsActivityCurrentPlace"
+            android:label="" />
+        <activity
+            android:name=".LifeStylenew"
+            android:label="" />
+        <activity
+            android:name=".Shopping_Malls"
+            android:label="" />
+        <activity
+            android:name=".BusActivity"
+            android:label="" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="" />
+        <activity android:name=".HotlineActivity"
+            android:label=""/>
+        <activity android:name=".Hotelmotel2Activity"
+            android:label="">
+        </activity>
+    </application>
+
+</manifest>

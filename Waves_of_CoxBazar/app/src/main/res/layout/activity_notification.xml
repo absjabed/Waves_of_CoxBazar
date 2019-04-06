@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_notification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainui4"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.parvez_n_jabed_co.waves_of_coxbazar.FirebaseIntegration.NotificationActivity">
+    <ImageView
+        android:id="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/fg"
+        />
+    <TextView
+        android:id="@+id/placeTitle"
+        android:layout_below="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="নোটিফিকেশন"/>
+    <TextView
+        android:id="@+id/dotdottxt"
+        android:layout_below="@+id/placeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:text="----------------------------------------------------------------------"/>
+    <ScrollView
+        android:layout_below="@id/dotdottxt"
+        android:id="@+id/scrollView1"
+        android:paddingTop="5dp"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mainico12web"
+                     />
+
+
+
+            <TextView
+                android:text="Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:textColor="#0f0"
+                android:id="@+id/textTitle"/>
+
+            <TextView
+                android:text="Short Message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="19sp"
+                android:textColor="#ff0"
+                android:layout_marginTop="38dp"
+                android:id="@+id/textMessage" />
+
+            <TextView
+                android:text="Full Message...."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="31dp"
+                android:id="@+id/textExtra" />
+
+            <!--<Button
+                android:id="@+id/fcmBtn"
+                android:layout_width="150dp"
+                android:visibility="invisible"
+                android:text="TEXT"
+                android:onClick="onClickFCMbtn"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#9400D3"
+                android:layout_marginTop="20dp"/>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

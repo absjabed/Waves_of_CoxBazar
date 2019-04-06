@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#50005923"
+    android:padding="2dp" >
+
+
+    <ImageView
+        android:id="@+id/bus_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_alignTop="@+id/bus_name"
+        />
+
+    <TextView
+        android:id="@+id/bus_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resturent "
+        android:textColor="@android:color/white"
+
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/bus_mobile"
+        android:layout_alignStart="@+id/bus_mobile" />
+
+    <TextView
+        android:id="@+id/bus_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="hello its for test"
+
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_alignBottom="@+id/bus_pic"
+        android:layout_toRightOf="@+id/bus_pic"
+        android:layout_toEndOf="@+id/bus_pic" />
+
+    <TextView
+        android:id="@+id/bus_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:text="kmparvez2@gmail.com"
+        android:textSize="15dp"
+        android:layout_below="@+id/bus_name"
+        android:layout_alignLeft="@+id/bus_name"
+        android:layout_alignStart="@+id/bus_name" />
+    <!--
+        <Button
+            android:text="Btnextra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_below="@+id/hospital_mobile"/>
+    -->
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "648875514597",
+    "firebase_url": "https://waves-of-coxbazar.firebaseio.com",
+    "project_id": "waves-of-coxbazar",
+    "storage_bucket": "waves-of-coxbazar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648875514597:android:1e863e141995dbed",
+        "android_client_info": {
+          "package_name": "com.parvez_n_jabed_co.waves_of_coxbazar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648875514597-e5of3anovs6055539cfki4mita0jdt58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parvez_n_jabed_co.waves_of_coxbazar",
+            "certificate_hash": "ac0e87dc0ce86e7ffa49c584e4809435d0428260"
+          }
+        },
+        {
+          "client_id": "648875514597-tv5pk4b2h04jv4egl0ke6epdod9d683b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvJk--lgUXU5joOcnRVW_Y0vQ6AfpM0YA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648875514597-tv5pk4b2h04jv4egl0ke6epdod9d683b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#50005923"
+    android:padding="3dp" >
+
+
+    <TextView
+        android:id="@+id/hospital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="txt"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/hospital_pic"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_below="@+id/hospital_name"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/hospital_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@android:color/white"
+        android:text="txt"
+        android:textSize="20sp"
+        android:layout_below="@+id/hospital_pic"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/hospital_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_below="@+id/hospital_email"
+        android:layout_centerHorizontal="true" />
+    <!--
+        <Button
+            android:text="Btnextra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_below="@+id/hospital_mobile"/>
+    -->
+</RelativeLayout>

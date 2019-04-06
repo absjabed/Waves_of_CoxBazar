@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="110dp">
+    
+    <ImageView
+        android:id="@+id/img_hotel_logo"
+        android:layout_margin="7dp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:background="@drawable/hot_d"/>
+    <LinearLayout
+        android:layout_margin="7dp"
+        android:layout_toRightOf="@+id/img_hotel_logo"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:text="Long Beach Hotel Ltd."
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_hotel_name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:text="longbeach@mail.com"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_hotel_email"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:text="ph: 01928346539"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_hotel_phone"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

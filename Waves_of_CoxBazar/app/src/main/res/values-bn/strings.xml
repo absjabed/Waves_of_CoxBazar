@@ -1,0 +1,467 @@
+<resources>
+    <string name="app_name">Waves of Coxs Bazar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="hweb1">আপনি কি এই হোটেলের রুম বুকিং সম্পর্কে জানতে তাদের ওয়েব সাইট ভিজিট করতে চান?</string>
+
+    <!--query-->
+    <string name="sendquery">হোটেল সম্পর্কে জানতে চান?</string>
+    <string name="q1">আপনার কিছু জানার থাকলে ইমেইল করুন \n</string>
+    <string name="q2">\n অথবা\nএসএমএস করুন \n</string>
+    <string name="qry">আপনার প্রশ্ন পাঠান</string>
+    <string name="helpline"> হেল্পলাইনে।</string>
+    <string name="yqry">এখানে আপনার প্রশ্ন অথাবা যা সম্পর্কে জানতে চান তা লিখুন.........</string>
+    <string name="sms">এসএমএস পাঠান</string>
+    <string name="roombook">রুম বুক করুন</string>
+    <string name="query">অনুসন্ধান</string>
+
+
+    <string name="share">শেয়ার</string>
+    <string name="action_settings">আমাদের সম্পর্কে</string>
+    <string name="title_activity_event">ইভেন্ট</string>
+    <string name="title_activity_event2">Event2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_example2">example2Activity</string>
+    <string name="title_activity_example32">লাইফ স্টাইল</string>
+    <string name="title_activity_zed_sky">জেটস্কি</string>
+
+    <string name="youarehere">আপনি এখানেই আছেন।</string>
+
+
+    <!--Airline-->
+    <string name="bdair">বিমান বাংলাদেশ এয়ারলাইন্স</string>
+    <string name="usbd">ইউএস বাংলা এয়ারলাইন্স</string>
+    <string name="novo">নভোএয়ার</string>
+    <string name="regent">রিজেন্ট এয়ারওয়েজ</string>
+    <string name="united">ইউনাইটেড এয়ারওয়েজ</string>
+    <string name="airweb">আপনি কি বিমান ভাড়ার চার্ট দেখতে</string>
+    <string name="airweb2">ওয়েবসাইট ভিজিট করতে চান?</string>
+    <string name="visit">ভিজিট</string>
+
+
+
+    <string name="title_activity_maps">বর্তমান অবস্থান সম্পর্কিত</string>
+    <string name="default_info_title">সাধারন অবস্থান</string>
+    <string name="default_info_snippet">কোন স্থান খুজে পাওয়া যায়নি, কারন লোকেশন পারমিশন দেওয়া হয়নি.</string>
+    <string name="option_get_place">নিকটবর্তী স্থান সমূহ</string>
+    <string name="pick_place">একটি স্থান সিলেক্ট করুন</string>
+    <string name="getPlace">আপনার নিকটবর্তী স্থান লোড হচ্ছে....</string>
+    <string name="slowInternet">দুঃখিত! আপনার ইন্টারনেট সংযোগ ধীর গতি সম্পন্ন.</string>
+    <string name="noData">দুঃখিত! এই সম্পর্কিত কোন তথ্য  নেই।</string>
+
+
+    <!--Market-->
+    <string name="market1">বিলকিস মার্কেট</string>
+    <string name="market2">লালদিঘীর পাড়\nমোবাইল amp; এক্সেসোরিস</string>
+    <string name="market3">কোরাল রীফ প্লাজা</string>
+    <string name="market4">কক্সবাজার</string>
+    <string name="market5">ইডেন গার্ডেন মার্কেট</string>
+    <string name="market6">লালদিঘীর পাড়</string>
+    <string name="market7">ফজল মার্কেট</string>
+    <string name="market8">পূর্ব লালদিঘীর পাড়</string>
+    <string name="market9">ফিরোজা মার্কেট</string>
+    <string name="market10">পান বাজার</string>
+    <string name="market11">কব্বির বার্মিজ মার্কেট</string>
+    <string name="market12">বাজার ঘাটা</string>
+    <string name="market13">এম এল শপিং কমপ্লেক্স</string>
+    <string name="market14">বুদ্ধিস্ট টেম্পল রোড</string>
+    <string name="market15">নিউ মার্কেট</string>
+    <string name="market16">বাজার ঘাঁটা</string>
+    <string name="market17">পৌর সমবায় সুপার মার্কেট</string>
+    <string name="market18">বাজার ঘাঁটা\nকস্মেটিক্ষ</string>
+    <string name="market19">রশিদ মার্কেট</string>
+    <string name="market20">পূর্ব লালদীঘির পাড়</string>
+    <string name="market21">সালাম মার্কেট</string>
+    <string name="market22">বাজার ঘাঁটা</string>
+    <string name="market23">শাফিক সেন্টার</string>
+    <string name="market24">মেইন রোড</string>
+    <string name="market25">সুপার মার্কেট</string>
+    <string name="market26">বাজার ঘাঁটা</string>
+    <string name="market27">বাজার ঘাঁটা শুটকি মার্কেট</string>
+    <string name="market28">পূর্ব বাজার ঘাঁটা</string>
+
+    <!--Other-->
+    <string name="noInternetMessage">আপনার ডিভাইসে কোনও ইন্টারনেট সংযোগ নেই। আপনি এটি সক্রিয় করতে চান?</string>
+    <string name="noInternetTitle">ইন্টারনেট সংযোগ নেই</string>
+    <string name="enableInternet"> ইন্টারনেট চালু করুন </string>
+    <string name="restartWave">ইন্টারনেট সংযোগ চালু করে, WAVES OF COX\'S BAZAR রিস্টার্ট করুন।</string>
+    <string name="restartCancle"> বাতিল </string>
+    <string name="internet_error">অনুগ্রহ করে আপনার ইন্টারনেট সংযোগটি চেক করুন।</string>
+    <string name="wait">ওয়েভ অব কক্সবাজার</string>
+    <string name="greet">আপনাকে স্বাগতম.....</string>
+    <string name="tideHeadLine">\nআগামী ১০ দিনের জোয়ার-ভাঁটা পূর্বাভাষ\n</string>
+    <string name="tideEx"> উদাহরণঃ জোয়ার ভাঁটার তথ্য  যেভাবে সাজানো হয়েছে\n\t\t স্ক্রল করে জোয়ার ভাঁটার সর্বশেষ পূর্বাভাষ দেখুন\n</string>
+    <string name="tideExclimation">\nকক্সবাজারের জোয়ারের ভবিষ্যদ্বাণী বহুবছরের পর্যবেক্ষণকৃত তথ্যগুলির উপর ভিত্তি করে একটি ভাল শিক্ষিত অনুমান। কক্সবাজারে স্থানীয় বাতাস ও চাপ ব্যবস্থা সহ জোয়ারের টেবিলের উপর অনেক প্রভাব ফেলবে।\n</string>
+    <string name="tideForcast">আরেকটি জোয়ার-পূর্বাভাস উৎস\n</string>
+    <string name="pleaseWait">দয়া করে অপেক্ষা করুন....</string>
+
+    <string name="num1">এক্সিকিউটিভ ম্যাজিস্ট্রেট, পর্যটন</string>
+    <string name="num11">01733373127</string>
+    <string name="num2">টুরিস্ট পুলিশ ১</string>
+    <string name="num22">01769690732</string>
+    <string name="num3">টুরিস্ট পুলিশ ২</string>
+    <string name="num33">01799900066</string>
+
+    <!--Call settings-->
+    <string name="permission">কলের অনুমতি</string>
+    <string name="vpermission">ওয়েব সাইট ভিসিট</string>
+    <string name="popUp">এই নাম্বারে কল করতে চান?</string>
+    <string name="doCall">কল করুন</string>
+
+    <!--Opinion Activity-->
+    <string name="op_headline">[ আমরা আপনার অভিযোগ / পরামর্শ স্বাগত জানাই ]</string>
+    <string name="op_title">অভিমতের ধরন*</string>
+    <string name="op_suggestion">পরামর্শ</string>
+    <string name="op_complain">অভিযোগ</string>
+    <string name="op_tottho">তথ্য</string>
+    <string name="op_query">অনুসন্ধান</string>
+    <string name="op_name">নাম*:</string>
+    <string name="op_email">ইমেইল(ঐচ্ছিক):</string>
+    <string name="op_desc">বিস্তারিত*:</string>
+    <string name="op_phone">ফোন*:</string>
+    <string name="op_submit">জমা দিন</string>
+    <string name="op_success">ধন্যবাদ! আপনার অভিযোগ জমা দেওয়ার জন্যে!</string>
+    <string name="op_danger">ওহ দুঃখিত! প্রয়োজনীয় ক্ষেত্রগুলি পূরণ করুন এবং আবার জমা দেওয়ার চেষ্টা করুন।</string>
+    <string name="op_warning">সতর্কবাণী! প্রথমে অভিযোগ বা মতামত ধরন নির্বাচন করুন।</string>
+
+
+    <!--Scrolling Line in main UI -->
+
+    <string name="scrolling_line">আপনার শহরকে পরিষ্কার পরিচ্ছন্ন রাখুন । জোয়ার ভাটার সময় মেনে চলুন । আইনশৃঙ্খলা মেনে চলুন । বিপদজনক এলাকায় সতর্কতা অবলম্বন করুণ , নিরাপদ থাকুন । যে কোন ধরনের বিপদে আইন শৃঙ্খলা বাহিনীর সাহায্য নিন । </string>
+
+    <!-- MianUI Icon names-->
+    <string name="icon_transport">ট্রান্সপোর্ট</string>
+    <string name="icon_hotel_motel">হোটেল</string>
+    <string name="icon_tour_travels">ট্র্যাভেল এজেন্সি</string>
+    <string name="icon_restaurant">রেস্টুরেন্ট</string>
+    <string name="icon_hospital">হাসপাতাল</string>
+    <string name="icon_beach_activities">বীচ এক্সপেরিয়েন্স</string>
+    <string name="icon_life_style">লাইফস্টাইল</string>
+    <string name="icon_location">নিকটবর্তী স্থান</string>
+    <string name="icon_tidal_forcast">জোয়ার ভাঁটা</string>
+    <string name="icon_impt_numbers">জরুরী নাম্বার</string>
+    <string name="icon_opinion">অভিমত জানান</string>
+    <string name="icon_helpline">হেল্পলাইন</string>
+
+    <!--Beach activities icon names-->
+    <string name="icon_photographar">ফটোগ্রাফার</string>
+    <string name="icon_beach_bike">বীচ বাইক</string>
+    <string name="icon_jet_ski">জেট স্কি</string>
+    <string name="icon_para_seiling">প্যারাসেইলিং</string>
+
+    <!--life style item names-->
+    <string name="item_shopping_centre">শপিংমল</string>
+    <string name="item_cultural_centre">সাংস্কৃতিক সেন্টার</string>
+    <string name="item_events">ইভেন্ট সমূহ</string>
+    <string name="item_entertainment">এন্টারটেইনমেন্ট</string>
+
+    <!--Transport-->
+    <string name="item_car_rental">কার রেন্টাল</string>
+    <string name="item_bus_service">বাস সার্ভিস</string>
+    <string name="item_airline">এয়ারলাইন্স</string>
+
+    <string name="language_setting">ভাষা পরিবর্তন</string>
+    <string name="lang_dialog_title">ভাষা পরিবর্তন করুন</string>
+    <string name="lang_dialog_message">ভাষা নির্বাচন করুন</string>
+    <string name="change">পরিবর্তন করুন</string>
+
+    <!-- Language select dialog -->
+    <string-array name="lang_select">
+        <item>ইংরেজী</item>
+        <item>বাংলা</item>
+    </string-array>
+
+
+
+    <!--Other string resources also defined in this file… -->
+    <string name="feedbacktype1">অভিযোগ</string>
+    <string name="feedbacktype2">Gripe</string>
+    <string name="feedbacktype3">পরামর্শ</string>
+    <string name="feedbacktype4">Bug</string>
+
+    <string-array name="feedbacktypelist">
+        <item>@string/feedbacktype1</item>
+        <item>@string/feedbacktype2</item>
+        <item>@string/feedbacktype3</item>
+        <item>@string/feedbacktype4</item>
+    </string-array>
+
+    <string name="title_activity_hotelmotel2">হোটেল মোটেল</string>
+    <string name="title_activity_ainsri">আইন শৃঙ্খলা বাহিনী</string>
+    <string-array name="shoping_array">
+        <item>শপিং লিস্ট ১</item>
+        <item>শপিং লিস্ট ২</item>
+        <item>শপিং লিস্ট ৩</item>
+        <item>শপিং লিস্ট ৪</item>
+        <item>শপিং লিস্ট ৫</item>
+        <item>শপিং লিস্ট ৬</item>
+        <item>শপিং লিস্ট ৭</item>
+        <item>শপিং লিস্ট ৮</item>
+    </string-array>
+    <string-array name="madical_array">
+        <item>মেডিকেল লিস্ট ১</item>
+        <item>মেডিকেল লিস্ট ২</item>
+        <item>মেডিকেল লিস্ট ৩</item>
+        <item>মেডিকেল লিস্ট ৪</item>
+        <item>মেডিকেল লিস্ট ৫</item>
+        <item>মেডিকেল লিস্ট ৬</item>
+        <item>মেডিকেল লিস্ট ৭</item>
+        <item>মেডিকেল লিস্ট ৮</item>
+    </string-array>
+    <string-array name="food_array">
+        <item>ফুড লিস্ট ১</item>
+        <item>ফুড লিস্ট ২</item>
+        <item>ফুড লিস্ট ৩</item>
+        <item>ফুড লিস্ট ৪</item>
+        <item>ফুড লিস্ট ৫</item>
+        <item>ফুড লিস্ট ৬</item>
+        <item>ফুড লিস্ট ৭</item>
+        <item>ফুড লিস্ট ৮</item>
+
+    </string-array>
+
+
+    <!-- Names -->
+    <string-array name="hospital_names">
+        <item>জেলা হাসপাতাল</item>
+        <item>সী সাইড হাসপাতাল</item>
+        <item>ফুয়াদ আল খাতিব হাসপাতাল</item>
+        <item>বাইতুশ শারাফ হাসপাতাল</item>
+        <item>কম্যউনিটি চক্ষুঃ হাসপাতাল</item>
+        <item>কক্স ন্যাশনাল হাসপাতাল</item>
+        <item>যাম যাম হাসপাতাল</item>
+        <!--   <item>Cox Alinoor Hospital</item>  -->
+    </string-array>
+
+    <string name="tutaklistTitel">কক্সবাজারে নিবন্ধিত ট্র্যাভেল এজেন্সি সমূহ।\n</string>
+    <!--GPS related-->
+    <string name="gpsOff">আপনার মোবাইলে জিপিএস চালু করা নেই, আপনি কি চালু করতে চান?</string>
+    <string name="enableGps">জিপিএস চালু করুন</string>
+    <string name="cancleGps">বাতিল</string>
+
+    <!-- Pictures -->
+    <array name="hospital_pics">
+        <item>@drawable/noimage</item>
+        <item>@drawable/noimage</item>
+        <item>@drawable/noimage</item>
+        <item>@drawable/noimage</item>
+        <item>@drawable/noimage</item>
+        <item>@drawable/noimage</item>
+        <item>@drawable/noimage</item>
+        <!--    <item>@drawable/hosd</item> -->
+    </array>
+
+
+    <!-- Status -->
+    <string-array name="hospital_email">
+        <item>মোবাইল ফোন স্বাস্থ্য  সার্ভিস</item>
+        <item>সেন্ট্রাল জামে মসজিদ রোড</item>
+        <item>সেন্ট্রাল জামে মসজিদ রোড</item>
+        <item>বাইতুশ শারাফ রোড</item>
+        <item>মেইন রোড</item>
+        <item>সেজান ম্যানসন হাসপাতাল রোড</item>
+        <item>ঈদগা সদর</item>
+        <!--  <item>Main Road, Tekpara</item>  -->
+    </string-array>
+
+    <!-- contact type -->
+    <string-array name="hospital_mobile">
+        <item>01730324770</item>
+        <item>034163606</item>
+        <item>034164674</item>
+        <item>034163911</item>
+        <item>0341623120</item>
+        <item>01843172100</item>
+        <item>01558633683</item>
+        <item>01930529223</item>
+    </string-array>
+
+    <array name="hotel_demo_pics">
+
+
+        <!--    <item>@drawable/hosd</item> -->
+    </array>
+
+    <!-- Names -->
+    <string-array name="res_names">
+        <item>পৌউষী রেস্টুরেন্ট</item>
+        <item>EFC - A Live Fish Restaurant</item>
+        <item>ঝাউবন রেস্টুরেন্ট</item>
+        <item>মারমেইড ক্যাফে</item>
+        <item>নিরিবিলি অর্কিড ক্লাব এন্ড রেস্টুরেন্ট</item>
+        <item>সী ল্যাম্প বীচ ক্যাফে</item>
+        <item>ডিভাইন সী স্টোন ক্যাফে</item>
+        <!--   <item>Cox Alinoor Hospital</item>  -->
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="res_pics">
+        <item>@drawable/res_1</item>
+        <item>@drawable/res_2</item>
+        <item>@drawable/res_3</item>
+        <item>@drawable/res_4</item>
+        <item>@drawable/res_5</item>
+        <item>@drawable/res_6</item>
+        <item>@drawable/res_7</item>
+        <!--    <item>@drawable/hosd</item> -->
+    </array>
+
+
+    <!-- Status -->
+    <string-array name="res_email">
+        <item>Poushee@gmail.com</item>
+        <item>efclive@gmail.com</item>
+        <item>jhaubon@gmail.com</item>
+        <item>mermaidcafe@gmail.com</item>
+        <item>niribili@gmail.com</item>
+        <item>sealamp@gmail.com</item>
+        <item>devinesea@gmail.com</item>
+        <!--  <item>Main Road, Tekpara</item>  -->
+    </string-array>
+
+    <!-- contact type -->
+    <string-array name="res_mobile">
+        <item>-------</item>
+        <item>-------</item>
+        <item>-------</item>
+        <item>-------</item>
+        <item>-------</item>
+        <item>-------</item>
+        <item>-------</item>
+        <item>-------</item>
+    </string-array>
+
+    <!-- Names -->
+    <string-array name="bus_names">
+        <item>হানিফ এন্টারপ্রাইজ</item>
+        <item>শ্যামলী পরিবহন</item>
+        <item>ইউনিক</item>
+        <item>স্টারলাইন</item>
+        <item>টি আর ট্রাভেলস</item>
+        <item>ঈগল পরিবহন</item>
+        <item>সৌদিয়া পরিবহন</item>
+        <item>এস আলম</item>
+        <item>সোহাগ পরিবহন</item>
+        <item>গ্রীন লাইন</item>
+        <item>সেন্টমার্টিন</item>
+        <item>বাগদাদ</item>
+        <item>দেশ ট্রাভেলস</item>
+
+
+        <!--   <item>Cox Alinoor Hospital</item>  -->
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="bus_pics">
+        <item>@drawable/bus1</item>
+        <item>@drawable/bus2</item>
+        <item>@drawable/bus3</item>
+        <item>@drawable/bus4</item>
+        <item>@drawable/bus5</item>
+        <item>@drawable/bus6</item>
+        <item>@drawable/bus7</item>
+        <item>@drawable/bus8</item>
+        <item>@drawable/bus9</item>
+        <item>@drawable/bus10</item>
+        <item>@drawable/bus11</item>
+        <item>@drawable/bus12</item>
+        <item>@drawable/bus13</item>
+
+
+        <!--    <item>@drawable/hosd</item> -->
+    </array>
+
+
+    <!-- Status -->
+    <string-array name="bus_email">
+        <item>ঢাকা-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার,রংপুর,রাজশাহী,পাবনা,কুস্টিয়া</item>
+        <item>ঢাকা-কক্সবাজার</item>
+        <item>ফেনী-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার,সিলেট-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার</item>
+        <item>ঢাকা-কক্সবাজার</item>
+
+
+        <!--  <item>Main Road, Tekpara</item>  -->
+    </string-array>
+
+    <!-- contact type -->
+    <string-array name="bus_mobile">
+        <item>মুহিবুর রহমান\n01713402634</item>
+        <item>শামিম\n01818209627</item>
+        <item>রহীম\n01928721484</item>
+        <item>স্বাপন\n01818632276</item>
+        <item>টিটু\n01722384499</item>
+        <item>শাহ্‌ আলম\n01710166252</item>
+        <item>নীরু\n01919654811</item>
+        <item>আলম\n01711272183</item>
+        <item>লুতফর\n01733052201</item>
+        <item>সুলতান\n01970060045</item>
+        <item>রেজা\n01719639447</item>
+        <item>গিয়াস\n0182736110</item>
+        <item>খোরশেদ\n01819108584</item>
+
+    </string-array>
+
+
+    <string-array name="trans_types">
+        <item>কার রেন্টাল</item>
+        <item>বাস সার্ভিস</item>
+        <item>এয়ারলাইন</item>
+        <!--<item>Other Services</item>-->
+
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="trans_pics">
+        <item>@drawable/car</item>
+        <item>@drawable/bus</item>
+        <item>@drawable/airplan</item>
+        <!--<item>@drawable/other</item>-->
+        <!--    <item>@drawable/hosd</item> -->
+    </array>
+
+
+    <string name="title_activity_jet2">জেটস্কি</string>
+    <string name="title_activity_toak">টুয়াক</string>
+    <string name="title_activity_complain">অভিযোগ/ পরামর্শ</string>
+    <string name="title_activity_beach_bike">বীচ বাইক</string>
+    <string name="title_activity_pera">প্যারাসেইলিং</string>
+    <string name="title_activity_culture_evt">কালচারাল ইভেন্ট</string>
+    <string name="title_activity_transport">ট্রান্সপোর্ট</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tide">জোয়ারভাটার সময়</string>
+    <string name="title_activity_location">আপনার অবস্থান</string>
+    <string name="title_activity_help_line">হট লাইন</string>
+    <string name="title_activity_blank">BlankActivity</string>
+
+
+    <string name="event">\t\t\tকক্সবাজার বীচে যত ধরনের এন্টারটেইনমেন্ট ইভেন্ট আছে। যেমন বীচ বাইক, জেড-স্কী, প্যারাসেলিং, ফটোগ্রাফার ইত্যাদির পূর্ণাঙ্গ তথ্য সেবার ধরণ ও কন্টাক্ট থাকবে ফলে জনসাধারণ খুব সহজেই এই সেবা গ্রহণ করতে পারবে।</string>
+    <string name="ain">\t\t\tপুলিশ, র‌্যাব ও জেলা প্রশাসন সহ সকল প্রশাসনিক কর্মকর্তার ফোন, ঠিকানা বিস্তারিত দেওয়া থাকবে। জন সাধারণ এতে হট-লাইন এর মাধ্যমে সকল প্রকার তাৎক্ষনিক সেবা গ্রহণ করতে পারবেন।</string>
+    <string name="hotel">\t\t\tসকল প্রকার হোটেল ও রিসোর্ট সমূহের ঠিকানা, ফোন নাম্বার, ধরন ছবিসহ দেওয়া থাকবে। ট্যুরিস্টগণ সাইড বাই সাইড কম্পেয়ার করে সরাসরি বুকিং ও রিজার্ভেশন দিতে পারবেন।</string>
+    <string name="toak">\t\t\tটুয়াক এর সকল সদস্যদের ফোন, ঠিকানা এবং কাজের ধরণ দেওয়া থাকবে। </string>
+    <string name="trans">\t\t\tএয়ার এবং রোড সার্ভিসের ঠিকানা ফোন বুকিং পদ্ধতি সময় ইত্যাদি এবং অনলাইন টিকেটিংএর  ব্যবস্থা থাকবে।</string>
+    <string name="life">\t\t\tকক্সবাজার এর সকল রেস্টুরেন্ট, হাসপাতাল , শপিংমল, কালচারাল ইভেন্ট সমূহের ঠিকানা বিস্তারিত দেওয়া থাকবে।</string>
+    <string name="joar">\t\t\tঅটোমেটিক ওয়াচের মাধ্যমে প্রতিদিন জোয়ার-ভাটার সময় জানানো হবে। ফলে ট্যুরিস্টরা অনাকাঙ্খিত দূর্ঘটনা হতে রক্ষা পাবেন। </string>
+    <string name="obosthan">\t\t\tজি.পি.এস. ট্র্যাকিং এর মাধ্যমে আপনার অবস্থান ও গন্তব্য স্থানের দূরুত্ব জানানো হবে। সমগ্র কক্সবাজারের ম্যাপ দেওয়া থাকবে এবং ডেঞ্জার জোন সমূহ চিহ্নিত করা থাকবে। ফলে ডেঞ্জার জোন সমূহের কাছাকাছি গেলে অটো নটিফিকেশন যাবে। </string>
+    <string name="help">\t\t\tএকটি মাত্র হেল্প লাইনের মাধ্যমে এক জন ট্যুরিস্ট সকল সেবা গ্রহণ করতে পারবেন ফলে ট্যুরিস্টদের বিভ্রান্ত হওয়ার সম্ভাবনা নেই।</string>
+    <string name="ovi">\t\t\tকক্সবাজার সম্পর্কে যেকোন অভিযোগ ও পরামর্শ থাকলে ট্যুরিস্টগণ প্রশাসনকে জানাতে পারবেন।</string>
+    <string name="feedbacktitle">ComplainBox</string>
+    <string name="feedbackname">Complain/Suggestion</string>
+    <string name="feedbackemail">Your Email</string>
+    <string name="feedbackbody">Write your comment here....</string>
+    <string name="feedbackresponse">Would you like an email response?</string>
+    <string name="feedbackbutton">Send Feedback</string>
+</resources>

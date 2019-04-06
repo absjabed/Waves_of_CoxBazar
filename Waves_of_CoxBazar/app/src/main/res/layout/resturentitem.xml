@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="#15005923"
+    android:padding="2dp" >
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/resturent_pic"
+        android:layout_width="110dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/hot_d"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"/>
+
+
+    <LinearLayout
+        android:layout_margin="7dp"
+        android:layout_toRightOf="@+id/resturent_pic"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:text="Long Beach Hotel Ltd."
+            android:layout_height="wrap_content"
+            android:id="@+id/resturent_name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:text="longbeach@mail.com"
+            android:layout_height="wrap_content"
+            android:id="@+id/resturent_email"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingTop="3dp"
+            android:fontFamily="serif-monospace"
+            android:text="ph: 01928346539"
+            android:layout_height="wrap_content"
+            android:id="@+id/resturent_mobile"/>
+    </LinearLayout>
+    <!--
+        <Button
+            android:text="Btnextra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_below="@+id/hospital_mobile"/>
+    -->
+</RelativeLayout>
